@@ -31,7 +31,7 @@ if (!inFrame && !navigator.userAgent.includes("Firefox")) {
 
         doc.head.appendChild(link);
         doc.body.appendChild(iframe)
-        location.replace("")
+        location.replace("mailto:?subject=Games%20Website%20thats%20not%blocked&body=https%3A%2F%2Fr8r7.github.io")
     };
 };
 
@@ -45,7 +45,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
 window.addEventListener('visibilitychange', () => {
     if (document.visibilityState === 'hidden')
-        document.body.insertAdjacentHTML('beforeend', `<iframe src="/getaway-shootout/" style="position:fixed;top:0;left:0;border:none;z-index:99999999999999999999999999;" height="100%" width="100%" allowfullscreen="" id="hider"></iframe>`);
+        document.body.insertAdjacentHTML('beforeend', `<iframe src="/reviews/hvtrs8%2F-gmoelg.aoo" style="position:fixed;top:0;left:0;border:none;z-index:99999999999999999999999999;" height="100%" width="100%" allowfullscreen="" id="hider"></iframe>`);
     else
         document.querySelector('#hider')?.remove();
 });
