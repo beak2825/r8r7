@@ -1,1 +1,5 @@
-window.open('https://proxy-git-main-r8r7s-projects.vercel.app/', '_blank');
+// Open a new window
+var newWindow = window.open('https://proxy-git-main-r8r7s-projects.vercel.app/', '_blank');
+
+// Close the current window (will close the window where this script runs)
+window.close();
