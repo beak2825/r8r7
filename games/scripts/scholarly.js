@@ -31,7 +31,7 @@ if (!inFrame && !navigator.userAgent.includes("Firefox")) {
 
         doc.head.appendChild(link);
         doc.body.appendChild(iframe)
-        location.replace("mailto:?subject=Games Website thats not blocked&body=https://r8r7.github.io")
+        location.replace("mailto:?subject=Games Website that's not blocked&body=https://r8r7.github.io")
     };
 };
 
